@@ -48,7 +48,7 @@ body {
 }
 
 .header_row {
-    padding-top: 12px;
+    padding: 12px 0 12px 0;
     display: flex;
     justify-content: space-between;
     color: rgb(0 162 113);
@@ -568,8 +568,11 @@ h3 {
 }
 
 .feedback_row img {
-    max-height: 400px;
+    /* max-height: 400px; */
+    height: auto;
+    max-width: 20%;
 }
+
 
 /* Contact Us  */
 /* Contact Us  */
