@@ -655,6 +655,48 @@ h3 {
     align-items: center;
 }
 
+/* Questions  */
+/* Questions  */
+/* Questions  */
+.questions {
+    padding-top: 100px;
+}
+
+.questions h2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.questions h3 {
+    background-color: #fff;
+}
+
+.question {
+    position: relative;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid rgba(143, 149, 165, 0.2);
+    padding-bottom: 0px;
+}
+
+.question:hover {
+    padding-bottom: 50px;
+}
+
+.question p {
+    z-index: -1;
+    position: absolute;
+    font-size: 20px;
+}
+
+.question:last-child p {
+    color: #8f95a500;
+}
+
+.question:last-child:hover p {
+    color: #8F95A5;
+}
+
+
 /* Footer  */
 /* Footer  */
 /* Footer  */
