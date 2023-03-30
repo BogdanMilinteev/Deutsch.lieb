@@ -24,6 +24,7 @@ body {
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
+    color: #8F95A5;
 }
 
 .img {
@@ -319,13 +320,40 @@ h3 {
     max-width: 310px;
 }
 
+/* Study with us  */
+/* Study with us  */
+/* Study with us  */
+
+.study-result-row,
+.study-boocks_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.study-boocks_row {
+    padding-bottom: 50px;
+}
+
+.study-result-text,
+.study-boocks-text {
+    max-width: 50%;
+}
+
+.study-boocks-img,
+.study-result-img {
+    max-width: 40%;
+    padding: 50px 50px 0 0;
+}
+
+
 
 /* About-us  */
 /* About-us  */
 /* About-us  */
 
 .about-us_row {
-    padding-top: 100px;
+    padding: 100px 0 50px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -365,6 +393,32 @@ h3 {
     justify-content: space-around;
     color: rgb(0 162 113);
 }
+
+/* Teachers  */
+/* Teachers  */
+/* Teachers  */
+.our-teachers {
+    padding-top: 100px;
+}
+
+.teachers_row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.teacher-item {
+    max-width: 30%;
+}
+
+.teacher-item img {
+    padding-bottom: 20px;
+}
+
+.teacher-item p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
 
 
 /* Pricing  */
@@ -453,9 +507,8 @@ h3 {
     padding: 100px 0 50px 0;
 }
 
-.cost h3,
 .cost h2 {
-    text-align: center;
+    padding-bottom: 40px;
 }
 
 .cost-items_row {
@@ -464,28 +517,19 @@ h3 {
     padding-top: 50px;
 }
 
-.cost-item:hover {
-    box-shadow: 0 0 3px rgb(0 162 113);
-}
-
 .cost-item {
-    /* border: 1px solid rgb(0 162 113); */
-    border-radius: 10%;
-    padding: 40px 30px;
     text-align: center;
-    transition: all 0.2s ease;
 }
 
-.cost-item img {
-    max-width: 100px;
-    max-height: 100px;
-    border-radius: 50%;
+.cost-item-img img {
+    text-align: center;
+    max-width: 80%;
 }
 
 .cost-item ul,
 .cost-item li {
     text-align: start;
-    list-style: decimal;
+    list-style: disc;
 }
 
 .cost-item li {
@@ -579,9 +623,9 @@ h3 {
     background-color: #fff;
 }
 
-/* Contact Us 2  */
-/* Contact Us 2  */
-/* Contact Us 2  */
+/* Contact Us  */
+/* Contact Us  */
+/* Contact Us  */
 
 .contant_column {
     display: flex;
@@ -611,6 +655,10 @@ h3 {
 /* Footer  */
 /* Footer  */
 /* Footer  */
+.footer {
+    position: relative;
+    bottom: 0;
+}
 
 .footer_row {
     display: flex;
