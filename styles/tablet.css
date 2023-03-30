@@ -1,0 +1,293 @@
+@media screen and (max-width: 1367px) {
+    h1 {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 80px;
+    }
+
+    .big-btn {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        padding: 22px 80px;
+        padding: 19px 67px;
+    }
+
+    /* Pricing  */
+
+    .pricing-categories_grid {
+        display: none;
+    }
+
+    .pricing-categories_column {
+        display: block;
+        text-align: center;
+    }
+
+    /* .pricing-item  */
+    .price-per-month {
+        position: relative;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Contact Us  */
+
+    .contact-us_row {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+    /* Header  */
+
+    h2 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 80px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .talk {
+        display: none;
+    }
+
+    .mobile-nav-btn {
+        display: block;
+        position: relative;
+        width: 100%;
+        transition: all 0.2s ease;
+        position: absolute;
+    }
+
+    .mobile-nav-btn>img {
+        transition: all 0.2s ease;
+        position: absolute;
+        right: 0;
+    }
+
+    .nav-mobile {
+        display: none;
+        transition: all 0.2s ease;
+    }
+
+    .mobile-nav-btn:hover .nav-mobile,
+    .mobile-nav-btn:active .nav-mobile {
+        transition: all 0.2s ease;
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 17px;
+        text-align: center;
+        background-color: #fff;
+    }
+
+    /* .nav-mobile {
+        display: block;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background-color: #000;
+    } */
+
+    .nav-mobile li {
+        padding-bottom: 10px;
+    }
+
+
+
+    /* Main  */
+    h2 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 80px;
+    }
+
+    .learn-img-for_row {
+        display: none;
+    }
+
+    .learn-img-for_column {
+        display: block;
+    }
+
+    .learn-row {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .learn-row h1,
+    .learn-row p {
+        padding-bottom: 20px;
+    }
+
+    .learn-text {
+        text-align: center;
+        max-width: 100%;
+    }
+
+
+    /* Skills  */
+
+    .btn {
+        padding: 16px 40px;
+    }
+
+    .skills_grid {
+        gap: 18px;
+        display: grid;
+        grid-template-areas:
+            "s w "
+            "r l";
+    }
+
+    .writing {
+        height: 100%;
+        ;
+        position: relative;
+    }
+
+    .writing .btn {
+        position: absolute;
+        bottom: 0px;
+        margin-bottom: 35px;
+    }
+
+    .skill img {
+        max-height: 298px;
+    }
+
+    .listening {
+        flex-direction: column;
+    }
+
+    .listening-img_column {
+        display: block;
+    }
+
+    .listening-img {
+        display: none;
+    }
+
+    /* About Us  */
+
+    .about-us_row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-us_text {
+        max-width: 100%;
+    }
+
+    .about-us-img_column {
+        display: block;
+    }
+
+    .about-us-img_column img {
+        max-height: 450px;
+    }
+
+    .about-us_img {
+        display: none;
+    }
+
+    /* Contact Us  */
+    .contact-us .label {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .label button,
+    .label input {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Footer */
+
+    .footer_row {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .policy_row a {
+        /* flex-direction: column;
+        text-align: center; */
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .big-btn {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 19px 67px;
+    }
+
+    .skill {
+        text-align: center;
+    }
+
+    .skills_grid {
+        gap: 18px;
+        display: grid;
+        grid-template-areas:
+            "s"
+            "w"
+            "r"
+            "l";
+    }
+
+    .writing p {
+        padding-bottom: 94px;
+    }
+
+    .writing a {
+        white-space: nowrap;
+    }
+
+    .writing .btn {
+        transform: translateX(-50%);
+    }
+
+    .listening p {
+        max-width: 100%;
+    }
+
+    .pricing h3 {
+        white-space: pre-wrap;
+    }
+
+
+    /* Footer  */
+    .policy_row {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        display: flex;
+        list-style: circle;
+        flex-direction: column;
+    }
+}
