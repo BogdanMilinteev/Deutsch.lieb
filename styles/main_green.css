@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+/* MAin green rgb(0 162 113) */
+
 html {
     scroll-behavior: smooth;
 }
@@ -48,7 +50,7 @@ body {
     padding-top: 12px;
     display: flex;
     justify-content: space-between;
-    color: #6E9C9F;
+    color: rgb(0 162 113);
     align-items: center;
     position: relative;
 }
@@ -57,7 +59,7 @@ body {
     font-weight: 400;
     font-size: 36px;
     line-height: 54px;
-    background: linear-gradient(90deg, #6E9C9F 45%, #939393 55%);
+    background: linear-gradient(90deg, rgb(0 162 113) 45%, #939393 55%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.2s ease;
@@ -69,7 +71,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    color: #6E9C9F;
+    color: rgb(0 162 113);
 }
 
 .nav_row a {
@@ -86,14 +88,14 @@ body {
     line-height: 25px;
     /* display: inline-block; */
     padding: 15px 20px;
-    border: 2px solid #6E9C9F;
+    border: 2px solid rgb(0 162 113);
     border-radius: 30px;
     transition: all 0.2s ease;
 }
 
 .heading-btn:hover {
     color: #fff;
-    background-color: #6E9C9F;
+    background-color: rgb(0 162 113);
 }
 
 .mobile-nav-btn,
@@ -108,12 +110,12 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    color: #6E9C9F;
+    color: rgb(0 162 113);
 }
 
 .language li:hover {
     color: #fff;
-    background-color: #6E9C9F;
+    background-color: rgb(0 162 113);
 }
 
 .language li {
@@ -153,7 +155,7 @@ h1 {
     font-weight: 600;
     font-size: 64px;
     line-height: 80px;
-    color: #6E9C9F;
+    color: rgb(0 162 113);
     /* max-width: 386px; */
     padding-bottom: 40px;
 }
@@ -178,19 +180,19 @@ h1 {
 
     display: inline-block;
     padding: 15px 20px;
-    border: 2px solid #6E9C9F;
+    border: 2px solid rgb(0 162 113);
     border-radius: 30px;
     transition: all 0.2s ease;
     background-color: #fff;
-    color: #6E9C9F;
+    color: rgb(0 162 113);
 }
 
 .learn-text a {
-    color: #6E9C9F;
+    color: rgb(0 162 113);
 }
 
 .big-btn:hover {
-    background-color: #6E9C9F;
+    background-color: rgb(0 162 113);
     color: #fff;
 }
 
@@ -242,7 +244,7 @@ h2 {
     font-weight: 600;
     font-size: 48px;
     line-height: 80px;
-    color: #6E9C9F;
+    color: rgb(0 162 113);
 }
 
 .skills h2 {
@@ -261,7 +263,7 @@ h2 {
 }
 
 h3 {
-    color: #6E9C9F;
+    color: rgb(0 162 113);
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -270,7 +272,7 @@ h3 {
 }
 
 .skill h3 {
-    color: #6E9C9F;
+    color: rgb(0 162 113);
     padding-bottom: 5px;
 }
 
@@ -290,15 +292,15 @@ h3 {
     font-size: 18px;
     line-height: 27px;
     padding: 17px 63px;
-    background-color: #6E9C9F;
+    background-color: rgb(0 162 113);
     color: #fff;
-    border: 2px solid #6E9C9F;
+    border: 2px solid rgb(0 162 113);
     border-radius: 5px;
     transition: all 0.2s ease;
 }
 
 .btn:hover {
-    color: #6E9C9F;
+    color: rgb(0 162 113);
     background-color: #fff;
 }
 
@@ -354,17 +356,14 @@ h3 {
     display: none;
 }
 
-/* About Us 2  */
-/* About Us 2  */
-/* About Us 2  */
-.about-us2 .about-us_img {
+.about-us .about-us_img {
     max-width: 40%;
     padding: 50px 50px 0 0;
 }
 
-.about-us2 .learn__btn_row {
+.about-us .learn__btn_row {
     justify-content: space-around;
-    color: #6E9C9F;
+    color: rgb(0 162 113);
 }
 
 
@@ -418,7 +417,7 @@ h3 {
     border-radius: 5px;
     max-width: 250px;
     white-space: nowrap;
-    color: #6E9C9F;
+    color: rgb(0 162 113);
     /* text-align: center; */
 }
 
@@ -431,7 +430,7 @@ h3 {
     font-weight: 400;
     font-size: 30px;
     line-height: 45px;
-    color: #6E9C9F;
+    color: rgb(0 162 113);
 }
 
 .self-study-img {
@@ -466,11 +465,11 @@ h3 {
 }
 
 .cost-item:hover {
-    box-shadow: 0 0 3px #6E9C9F;
+    box-shadow: 0 0 3px rgb(0 162 113);
 }
 
 .cost-item {
-    /* border: 1px solid #6E9C9F; */
+    /* border: 1px solid rgb(0 162 113); */
     border-radius: 10%;
     padding: 40px 30px;
     text-align: center;
@@ -568,8 +567,8 @@ h3 {
     width: 34%;
     color: #fff;
     padding: 25px 80px;
-    background-color: #6E9C9F;
-    border: 2px solid #6E9C9F;
+    background-color: rgb(0 162 113);
+    border: 2px solid rgb(0 162 113);
     border-radius: 10px;
     transition: all 0.2s ease;
 }
@@ -590,7 +589,7 @@ h3 {
     gap: 25px;
 }
 
-.contact-us2 {
+.contact-us {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
