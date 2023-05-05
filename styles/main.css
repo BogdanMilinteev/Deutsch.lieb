@@ -26,12 +26,6 @@ body {
     color: #8F95A5;
 }
 
-.img {
-    object-fit: contain;
-    width: 100%;
-    height: auto;
-}
-
 .container {
     padding: 0 130px;
 }
@@ -279,7 +273,6 @@ h2 {
 
 .skills h2 {
     text-align: center;
-    padding-bottom: 40px;
 }
 
 .skill {
@@ -358,10 +351,6 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.study-boocks_row {
-    /* padding-bottom: 20px; */
 }
 
 .study-result-text,
@@ -588,6 +577,7 @@ h3 {
 
 .feedback_row {
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -606,10 +596,57 @@ h3 {
 }
 
 .feedback_row img {
-    /* max-height: 400px; */
-    height: auto;
-    max-width: 20%;
+    object-fit: contain;
+    max-height: 400px;
 }
+
+.feedback-item {
+    /* max-width: 200px; */
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.slider {
+    position: relative;
+    /* background-color: beige; */
+}
+
+.owl-prev {
+    left: -65px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 1;
+    transition: all 0.1s ease;
+    border-radius: 50% !important;
+
+}
+
+.owl-next {
+    right: -65px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 1;
+    transition: all 0.1s ease;
+    border-radius: 50% !important;
+}
+
+.owl-prev img,
+.owl-next img {
+    padding: 7px 18.5px;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    box-shadow: 0 0 3px rgb(0, 162, 113);
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: #fff !important;
+}
+
 
 
 /* Contact Us  */
@@ -639,6 +676,14 @@ h3 {
     line-height: 30px;
     color: #8F95A5;
     padding-bottom: 50px;
+}
+
+.contant_column li {
+    transition: all 0.15s ease;
+}
+
+.contant_column li:hover {
+    color: rgb(0 162 113);
 }
 
 .contact-us_text input {
